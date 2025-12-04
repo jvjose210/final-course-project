@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | TasteSaipan</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/main.js" defer></script>
+</head>
+
+<body>
+    <header id="top">
+        <h1>TasteSaipan</h1>
+        <p class="tagline">Your food guide to paradise</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="restaurants.html">Restaurants</a></li>
+                <li><a href="cuisines.html">Cuisines</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+        <img src="images/sung-shin-Cwn3tyv8iqo-unsplash.jpg" alt="Saipan beach banner" class="banner">
+    </header>
+    <main>
+        <section class="contact-intro">
+            <h2>Contact Me</h2>
+            <p>If I missed your restaurant, if something is wrong on the site, or if you just want to share feedback or
+                suggestions, please fill out this form. I’ll respond when I can.</p>
+        </section>
+        <section class="contact-section">
+            <form action="https://formsubmit.co/jason.jose@my.marianas.edu" method="POST" class="contact-form">
+                <input type="hidden" name="_next"
+                    value="https://jasonjosewebsiteforassignment3.gt.tc/final-course-project/contact.html">
+                <input type="hidden" name="_subject" value="New TasteSaipan contact form message">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Your full name">
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required placeholder="name@example.com">
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="5" required
+                    placeholder="Write me anything from requesting to add a restaurant I missed, report wrong information on the site, or suggest features and ideas for TasteSaipan"></textarea>
+                <button type="submit" class="contact-btn">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 TasteSaipan | Jason Vince Jose</p>
+        <a href="#top" class="back-to-top">Back to top</a>
+    </footer>
+</body>
+</html>
