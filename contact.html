@@ -31,17 +31,12 @@
                 suggestions, please fill out this form. I’ll respond when I can.</p>
         </section>
         <section class="contact-section">
-            <form action="https://formsubmit.co/jason.jose@my.marianas.edu" method="POST" class="contact-form">
-                <input type="hidden" name="_next" value="contact.html">
-                <input type="hidden" name="_subject" value="New TasteSaipan contact form message">
-                <label for="name">Your Name:</label>
-                <input type="text" id="name" name="name" required placeholder="Your full name">
-                <label for="email">Your Email:</label>
-                <input type="email" id="email" name="email" required placeholder="name@example.com">
-                <label for="message">Your Message:</label>
-                <textarea id="message" name="message" rows="5" required
-                    placeholder="Write me anything from requesting to add a restaurant I missed, report wrong information on the site, or suggest features and ideas for TasteSaipan"></textarea>
-                <button type="submit" class="contact-btn">Send Message</button>
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="a74613df-29ab-43b5-ab37-e5743601c453">
+                <input type="text" name="name" required>
+                <input type="email" name="email" required>
+                <textarea name="message" required></textarea>
+                <button type="submit">Submit</button>
             </form>
         </section>
     </main>
@@ -50,4 +45,5 @@
         <a href="#top" class="back-to-top">Back to top</a>
     </footer>
 </body>
+
 </html>
